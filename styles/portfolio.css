@@ -160,3 +160,51 @@ nav .menu a {
     line-height: 28px;
     color: #757575;
 }
+#resume {
+    padding-top: 130px;
+}
+#resume .resume-container {
+    width: 70%;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+#resume .resume-container .resume-info {
+    display: flex;
+    gap: 71px;
+}
+.resume-info .resume-info-box {
+    /* border: 1px solid red; */
+}
+.resume-info .resume-info-box h3 {
+    margin-top: 113px;
+    margin-bottom: 30px;
+    font-size: 30px;
+    color: #474747;
+}
+
+.box {
+    max-width: 511px;
+    margin-right: 47px;
+}
+.resume-info-box .box h4 {
+    margin-bottom: 10px;
+    font-size: 25px;
+    font-weight: bold;
+    color: #474747;
+}
+.resume-info-box .box h5 {
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #474747;
+}
+.resume-info-box .box p {
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #757575;
+}
+.resume-info-box hr {
+    color: #d1d1d1;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    align-items: center;
