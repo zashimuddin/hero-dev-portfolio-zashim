@@ -40,6 +40,9 @@
     line-height: 30px;
     color: #757575;
 }
+.tex-center {
+    text-align: center;
+}
 
 /* main style  */
 header{
@@ -172,9 +175,6 @@ nav .menu a {
     display: flex;
     gap: 71px;
 }
-.resume-info .resume-info-box {
-    /* border: 1px solid red; */
-}
 .resume-info .resume-info-box h3 {
     margin-top: 113px;
     margin-bottom: 30px;
@@ -208,3 +208,55 @@ nav .menu a {
     margin-top: 30px;
     margin-bottom: 30px;
     align-items: center;
+}
+footer {
+    margin-top: 130px;
+    background-color: #FFF8F3;
+    padding: 130px;
+}
+footer .footer-containter {
+    width: 70%;
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    gap: 116px;
+}
+.footer-containter .social {
+    max-width: 512px;
+
+}
+
+.footer-containter h2 {
+    color: #181818;
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+.footer-containter .social p {
+    color: #474747;
+    line-height: 28px;
+    margin-bottom: 30px;
+}
+.footer-containter .icons a {
+    margin-right: 24px;
+}
+
+.footer-containter form input[type = "text"] {
+    width: 461px;
+    padding: 18px 31px;
+}
+.footer-containter form input[type = "email"] {
+    width: 461px;
+    padding: 18px 31px;
+    margin-bottom: 24px;
+    border: none;
+    border-radius: 5px;
+    color: #757575;
+}
+.footer-containter form input[type = "text"], .footer-containter form textarea  {
+    width: 461px;
+    padding: 18px 31px;
+    margin-bottom: 24px;
+    border: none;
+    border-radius: 5px;
+    color:#757575
+}
